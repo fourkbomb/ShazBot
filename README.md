@@ -16,5 +16,5 @@ class Plugin:
     def on_message(self, msg):
     	# on_message takes in a msg parameter. This method is called when a message is
     	# sent to the channel. The msg parameter simply refers to that message.
-    	pass
+    	self.controller.send_message("Hello, World!")
 ```
