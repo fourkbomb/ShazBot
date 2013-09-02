@@ -2,7 +2,7 @@ ShazBot
 =======
 
 An extendable IRC bot with plugin capabilities. An example plugin is as follows:
-
+```python
     class Plugin:
     	# The active variable signifies whether or not the plugin will be active
     	# upon loading it.
@@ -18,3 +18,4 @@ An extendable IRC bot with plugin capabilities. An example plugin is as follows:
         	# sent to the channel. The msg parameter simply refers to that message.
 
         	pass
+```
