@@ -31,7 +31,7 @@ class Plugin:
 			#print(chr(self.pointers[self.ptr]),end='')
 			self.current_phrase+=chr(self.pointers[self.ptr])
 			if self.current_phrase[-1]=="\n":
-				self.controller.send_message(current_phrase.strip())
+				self.controller.send_message(self.current_phrase.strip())
 				self.current_phrase=''
 		elif i==',':
 			#self.pointers[self.ptr]=input()[0]
