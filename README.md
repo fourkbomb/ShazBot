@@ -1,0 +1,4 @@
+ShazBot
+=======
+
+An IRC Bot
